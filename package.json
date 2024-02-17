@@ -1,0 +1,79 @@
+{
+  "name": "twitch.electron.auth.template",
+  "productName": "Twitch Electron Auth Template",
+  "version": "0.1.0",
+  "description": "A template for an Electron desktop application with Twitch authentication",
+  "main": ".webpack/main",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "eslint --ext .ts,.tsx ."
+  },
+  "keywords": [
+    "electron",
+    "react",
+    "typescript",
+    "ts",
+    "styled-components",
+    "antd",
+    "webpack",
+    "twitch",
+    "stream",
+    "notification"
+  ],
+  "homepage": "https://github.com/svhelp/twitch-electron-auth-template#readme",
+  "bugs": {
+    "url": "https://github.com/svhelp/twitch-electron-auth-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svhelp/twitch-electron-auth-template.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Aleksandr Kravchenko",
+    "email": "svhelpp@gmail.com"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.4.1",
+    "@electron-forge/maker-deb": "^6.4.1",
+    "@electron-forge/maker-rpm": "^6.4.1",
+    "@electron-forge/maker-squirrel": "^6.4.1",
+    "@electron-forge/maker-zip": "^6.4.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.4.1",
+    "@electron-forge/plugin-webpack": "^6.4.1",
+    "@electron-forge/publisher-github": "^6.4.1",
+    "@types/cors": "^2.8.13",
+    "@types/dotenv-webpack": "^7.0.4",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "@vercel/webpack-asset-relocator-loader": "1.7.3",
+    "axios": "^1.4.0",
+    "css-loader": "^6.0.0",
+    "dotenv-webpack": "^8.0.1",
+    "electron": "26.1.0",
+    "electron-log": "^4.4.8",
+    "electron-store": "^8.1.0",
+    "eslint": "^8.0.1",
+    "eslint-plugin-import": "^2.25.0",
+    "fork-ts-checker-webpack-plugin": "^7.2.13",
+    "node-loader": "^2.0.0",
+    "style-loader": "^3.0.0",
+    "ts-loader": "^9.2.2",
+    "ts-node": "^10.0.0",
+    "typescript": "~4.5.4"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "antd": "^5.8.4",
+    "electron-squirrel-startup": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2",
+    "styled-components": "^6.0.7"
+  }
+}
